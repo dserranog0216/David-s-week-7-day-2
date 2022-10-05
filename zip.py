@@ -61,8 +61,12 @@ def zip1():
   
   # Zip Practice #2
   # Create a zip object made up of lists, of a set of brands and products that you prefer, inside the my_zip variable.
-  # brands =
-  # products =
+  brands = ["Colgate", "Nestle","Apple"]
+  products = ["Toothpaste", "Water", "Cell Phones"]
+
+  for brands, products in zip(brands, products):
+    print(f"The brand I prefer is {brands} and I use their {products}")
+  
   
   
   # Zip Practice #3
