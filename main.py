@@ -26,5 +26,5 @@ from min_max import min_max
 # random()
 # ranges()
 # enum()
-zip1()
-# min_max()
+#zip1()
+min_max()
